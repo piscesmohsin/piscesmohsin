@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+<meta name="msapplication-config" content="./favicon/browserconfig.xml" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+<link rel='stylesheet' href='https://codepen.io/FlorinPop17/pen/LYEBjmB.css'>
+<link rel="stylesheet" href="./Sass/main.css">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Morph-it</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <nav>
+    <h2 data-end=".it"> Morph</h2>
+
+    <button id="burger" class="burger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </button>
+
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="https://hypermohsin.blogspot.com/" target="blank">Blog</a></li>
+      <li><a href="http://mdmohsin.freesite.vip/?i=1" target="blank">Dev</a></li>
+      <li><a href="http://mdmohsin.freesite.vip/?i=1" target="blank">Contact</a></li>
+
+      <div class="in-menu">
+
+
+
+
+
+
+
+      </div>
+    </ul>
+
+
+
+  </nav>
+
+
+
+
+
+
+
+</head>
+
+<body translate="no">
+  
+  <script src="https://unpkg.com/delaunay-fast@1"></script>
+  <script src="https://unpkg.com/abo-utils@0.3"></script>
+  <script src="https://unpkg.com/drag-tracker@1"></script>
+  
+
+
+  <svg width="0" height="0" style="position:absolute;">
+    <defs>
+      <radialGradient id="point-grad">
+        <stop offset="80%" stop-color="transparent" />
+        <stop offset="81%" stop-color="white" />
+      </radialGradient>
+    </defs>
+  </svg>
+
+
+  <section id="app">
+
+
+
+
+
+    <div id="prepare" class="group">
+      <button @click="clear">Clear</button>
+
+      <div id="image1" class="image-container">
+        <div class="draw-area" :style="sizer()">
+          <canvas class="img"></canvas>
+
+        </div>
+
+        <div class="btn">
+          <label>
+            <input type="file" accept="image/*">
+            <span>Change image</span>
+
+          </label>
+        </div>
+
+      </div>
+      <div id="image2" class="image-container">
+        <div class="draw-area" :style="sizer()">
+          <canvas class="img"></canvas>
+
+        </div>
+        <div class="btn">
+          <label>
+            <input type="file" accept="image/*">
+            <span>Change image</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="apply" class="group">
+      <button @click="warp">Morph</button>
+      <div id="morph">
+
+        <canvas id="c1" :width="state.size.w" :height="state.size.h"></canvas>
+        <canvas id="c2" :width="state.size.w" :height="state.size.h"></canvas>
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+  
+
+
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+     <script src='https://codepen.io/FlorinPop17/pen/LYEBjmB.js'></script>
+
+    <script src="./js/framework.js"></script>
+  <script src="./js/script.js"></script>
+
+
+
+</body>
+
+</html>

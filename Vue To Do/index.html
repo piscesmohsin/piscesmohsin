@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./img/todo.png" type="image/x-icon">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+   <link rel="stylesheet" href="./style.css">
+  <title> Modern To-Do Manager </title>
+</head>
+
+
+<body>
+
+
+
+  <div id="app">
+    <input type="text" v-bind:class="{ active: new_todo }" placeholder="Learn Svelte Today.." v-model="new_todo"
+      v-on:keyup.enter="addItem">
+    <div class="btn-div" style=" display: flex; justify-content: center; text-align: center; margin: auto;">
+      <p style="text-align: center;" class="add-btn" @click="addItem">+</p>
+    </div>
+
+
+
+    <div class="todo-wrapper">
+      <div class="header">
+
+
+
+        <h4 style=" color:rgba(0, 0, 0, 0.152); text-shadow: rgba(0, 0, 0, 0.508)  0px 1px ; " class="todo-title">
+          {{ today.day }}<br>{{ today.date }}</h4>
+        <h2 id="user" style="margin: 7px; text-transform: capitalize; "></h2>
+      </div>
+      <hr style="width: 100%;">
+
+
+
+
+      <div v-if="pending.length > 0">
+        <p style=" margin-top:10px;" class="status busy">You have {{ pending.length }} pending item<span
+            v-if="pending.length>1">s</span></p>
+        <transition-group name="todo-item" tag="ul" class="todo-list">
+          <li v-for="(item, index) in pending" v-bind:key="item.title">
+            <input style=" color:rgba(255, 255, 255, 0.33); background-color: rgba(255, 255, 255, 0.323); "
+              class="todo-checkbox" v-bind:id="'item_' + item.id" v-model="item.done" type="checkbox">
+            <label v-bind:for="'item_' + item.id"></label>
+            <span class="todo-text">{{ item.title }}</span>
+            <span class="delete" @click="deleteItem(item)"></span>
+          </li>
+          </transition>
+      </div>
+
+      <transition name="slide-fade">
+        <p class="status free" v-if="!pending.length"> Great ! You have no todos left.</p>
+      </transition>
+
+      <div v-if="completed.length > 0 && showComplete">
+        <p class="status">Completed tasks: {{ completedPercentage }}</p>
+        <transition-group name="todo-item" tag="ul" class="todo-list archived">
+          <li v-for="(item, index) in completed" v-bind:key="item.title">
+            <input class="todo-checkbox" v-bind:id="'item_' + item.id" v-model="item.done" type="checkbox">
+            <label v-bind:for="'item_' + item.id"></label>
+            <span class="todo-text">{{ item.title }}</span>
+            <span class="delete" @click="deleteItem(item)"></span>
+          </li>
+
+          </transition>
+
+
+      </div>
+      <div class="control-buttons">
+        <div class="btn btn-secondary" v-if="completed.length > 0" @click="toggleShowComplete"><span
+            v-if="!showComplete">Show</span><span v-else>Hide</span> Complete</div>
+        <div class="btn btn-secondary" v-if="todoList.length > 0" @click="clearAll">Clear All</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="adminActions">
+
+      <input type="checkbox" name="adminToggle" class="adminToggle" />
+      <a class="adminButton" href="#!"><i class="fas fa-user-plus"></i></a>
+      <div class="adminButtons">
+
+        <a href="https://github.com/undefmohsin" target="blank"><i class="fab fa-github"></i></a>
+        <a href="http://mdmohsin.freesite.vip/?i=2" target="blank"><i class="fab fa-dev"></i></a>
+        <a href="https://www.facebook.com/universeinside01" target="blank"><i class="fab fa-facebook"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/vue.js"></script>
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

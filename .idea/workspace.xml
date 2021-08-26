@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b61ae228-64df-4f71-ac5a-9ebb56703536" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1to8CwmmgQ1aSYvTR2rBco18yaa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b61ae228-64df-4f71-ac5a-9ebb56703536" name="Default Changelist" comment="" />
+      <created>1623423957426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623423957426</updated>
+      <workItem from="1623423959894" duration="25000" />
+      <workItem from="1623424011580" duration="634000" />
+      <workItem from="1623826594537" duration="178000" />
+      <workItem from="1626412437084" duration="518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="359" width="941" height="634" key="#File_Watchers" timestamp="1626412952995">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="845" y="359" width="941" height="634" key="#File_Watchers/0.0.1920.1050@0.0.1920.1050" timestamp="1626412952995" />
+    <state x="845" y="388" width="704" height="548" key="#Notifications" timestamp="1623424541655">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="845" y="388" width="704" height="548" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1623424541655" />
+    <state x="763" y="314" key="#Web_Browsers" timestamp="1626412502659">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="763" y="314" key="#Web_Browsers/0.0.1920.1050@0.0.1920.1050" timestamp="1626412502659" />
+    <state x="1077" y="283" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1626412931001">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1077" y="283" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1626412931001" />
+    <state x="966" y="258" width="662" height="678" key="EditFileWatcherDialog" timestamp="1626412951441">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="966" y="258" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1626412951441" />
+    <state x="1077" y="333" key="FileChooserDialogImpl" timestamp="1626412935137">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1077" y="333" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1626412935137" />
+    <state x="798" y="125" key="SettingsEditor" timestamp="1623424155671">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="798" y="125" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1623424155671" />
+    <state x="1089" y="436" key="scopes" timestamp="1626412938710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1089" y="436" key="scopes/0.0.1920.1050@0.0.1920.1050" timestamp="1626412938710" />
+  </component>
+</project>

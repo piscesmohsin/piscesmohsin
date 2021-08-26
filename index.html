@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head  >
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="description" content="I am a Front-End Web Developer and Designer. Need a website for your business? Want to reach out to more customers? Hire Me Now !">
+  <meta name="keywords" content="web developer, web designer, developer, designer, web, frontend developer, front end, Salempur, Uttar Pradesh, software developer, freelance, freelancing, freelancer, javascript, javascript developer, vuejs, reactjs, react, react developer, website design, website developer, wordpress developer, wordpress designer ">
+  <link rel="stylesheet" href="./Sass/main.css" id="pageTheme"  >
+  <link rel="stylesheet" href="./Sass/media-desktop.css" >
+  <link rel="stylesheet" href="./Sass/media-mobile.css">
+  <link rel="stylesheet" href="./Sass/media-tablet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="./style/aos.css">
+  <script src="./js/main.js"></script>
+  <script src="./js/aos.js"></script>
+ <link rel="stylesheet" href="./style/logo.css">
+</head>
+  
+
+  
+  <title>Md Mohsin</title>
+
+
+
+
+
+
+
+
+
+  
+
+</head>
+  
+<!-- markup structure
+nav, a wrapping container for a series of link elements
+  a, each anchor link element nesting an SVG icon and a span describing the link
+
+
+
+-->
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#contactus">letswork</a></li>
+          <li><a href="#mProjects">Projects</a></li>
+          <li><a href="#servixe">Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<header data-aos="fade-down" class="header" >
+  <div  class="header__container">
+    <div class="cssContainer">
+      <div class="csschooser">
+        <button id="silk" onclick="SwapStyleSheet('./style/silk.css')"></button>
+        <button id="main" onclick="SwapStyleSheet('./Sass/main.css')"></button>
+        <button id="dark" onclick="SwapStyleSheet('./style/dark.css')"></button>
+         </div>
+     
+  </div>
+
+
+
+  
+
+
+  <a class="hire-me" href="#contactus">Hire Me</a>
+
+     
+    <div class="imageChooser">
+      <span class="imageLi"><img  onclick="imageSlider('prof.jpg')" src="./prof.jpg" alt="" id="p1"></span>
+      <span class="imageLi"><img  onclick="imageSlider('prof1.jpg')" src="./prof1.jpg" alt="" id="p1"></span>
+      <span class="imageLi"><img  onclick="imageSlider('prof2.png')" src="./prof2.png" alt="" id="p1"></span>
+    </div>
+    </div>
+  
+   
+  
+      </div>
+     
+
+      <div class="header__toggle">
+          <i class='bx bx-menu' id="header-toggle"></i>
+      </div>
+  </div>
+</header>
+
+
+
+
+<!--========== NAV ==========-->
+
+<div data-aos="fade-right"  class="nav" id="navbar">
+  <div class="nav__container">
+      <div>
+         
+        <div class="mainlogo">
+
+         
+
+            <span class="icon-m-white"></span>
+        </div>
+      
+
+
+
+          <div class="nav__list">
+              <div class="nav__items">
+                  <h3 class="nav__subtitle">Profile</h3>
+
+                  <a href="#" class="nav__link active">
+                      <i class='bx bx-home nav__icon' ></i>
+                      <span class="nav__name">Home</span>
+                  </a>
+                  
+                  <div class="nav__dropdown">
+                      <a href="#profile" class="nav__link">
+                        <i class='bx bx-user nav__icon' ></i>
+                          <span  class="nav__name"> Profile</span>
+                         
+                      </a>
+
+                     
+                  </div>
+
+                  <a href="#contactus" class="nav__link">
+                      <i class='bx bx-message-rounded nav__icon' ></i>
+                      <span class="nav__name">Lets Work !</span>
+                  </a>
+              </div>
+
+              <div class="nav__items">
+                  <h3 class="nav__subtitle">Menu</h3>
+
+                  <div class="nav__dropdown">
+                      <a href="#Projects" class="nav__link">
+                        <i class='bx bx-code nav__icon'></i>
+                          <span class="nav__name">Projects</span>
+                          
+                      </a>
+
+                   
+
+                  </div>
+
+                  <a href="#servixe" class="nav__link">
+                    <i class='bx bx-spa nav__icon ' ></i>
+                      <span class="nav__name">Services</span>
+                  </a>
+                  <a href="#" class="nav__link">
+                    <i class='bx bx-happy nav__icon' ></i>
+                      <span class="nav__name">Mood</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <a href="#" class="nav__link nav__logout">
+          <i class='bx bx-log-out nav__icon' ></i>
+          <span class="nav__name">Log Out</span>
+      </a>
+  </div>
+</div>
+
+
+
+
+
+<!--========== CONTENTS ==========-->
+
+<body>
+
+
+
+<div data-aos="fade" class="background"></div>
+
+<div class="imagechooser-box">
+
+
+  <div  id="profile" class="profile">
+
+
+    <div data-aos="fade-left" class="-img">
+      <img src="./prof.jpg" class="prof">
+    </div>
+
+    <div data-aos="fade-right" class="profile-text">
+
+    <h1 id="head">Hey There! I am Mohsin <br> I can transform your idea into Code </h1>
+    <p class="about-dev" >I am a <strong> web developer </strong> and <strong> designer </strong> my passion is to create beautiful experiences. well first of all I never went to college to get degree <strong>Thanks To Internet</strong> I spend my time Learning Stuff I dont know yet like some new Language, Theories about universe, I pledge to be a lifelong learner, because there is so much to <strong>know</strong> and <strong>create . </strong>
+     </p class="about-dev" >
+
+    </div>
+
+  </div >
+
+  <div data-aos="fade-right" id="dmt" class="dmt">
+
+
+
+    <h1>What About an online meeting ?</h1>
+
+
+
+
+
+    <div class="share-button">
+      <span class="flw">Text Me</span>
+      <a href="mailto:mohsindev798@gmail.com" target="blank"><i class='bx bx-envelope'></i></a>
+      <a href="https://www.facebook.com/universeinside01"><i class='bx bxl-messenger' ></i></a>
+      <a href="https://www.instagram.com/ntgexists/" target="blank"><i class='bx bxl-instagram '></i></a>
+      <a href="https://www.linkedin.com/in/md-mohsin-96388a218/"><i class='bx bxl-linkedin ' ></i></a>
+    </div>
+
+  </div>
+
+
+
+
+
+<div id="servixe"></div>
+
+
+
+  
+  <section data-aos="fade-right" id="SerSec" >
+    <div id="ServiceSection" class="services-div">
+
+      <div class="projects-section">
+        <div class="projects-section-header">
+          <p>Services</p>
+          <p class="time"></p>
+        </div>
+        <div class="projects-section-line">
+          <div class="projects-status">
+            <div class="item-status">
+              <span class="status-number">2</span>
+              <span class="status-type">Learning</span>
+            </div>
+            <div class="item-status">
+              <span class="status-number">2</span>
+              <span class="status-type">Upcoming</span>
+            </div>
+            <div class="item-status">
+              <span class="status-number">06</span>
+              <span class="status-type">Current Skills</span>
+            </div>
+          </div>
+          <div class="view-actions">
+            <button class="view-btn list-view" title="List View">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-list">
+                <line x1="8" y1="6" x2="21" y2="6" />
+                <line x1="8" y1="12" x2="21" y2="12" />
+                <line x1="8" y1="18" x2="21" y2="18" />
+                <line x1="3" y1="6" x2="3.01" y2="6" />
+                <line x1="3" y1="12" x2="3.01" y2="12" />
+                <line x1="3" y1="18" x2="3.01" y2="18" />
+              </svg>
+            </button>
+            <button class="view-btn grid-view active" title="Grid View">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-grid">
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-boxes jsGridView">
+          <div class="project-box-wrapper">
+            <div class="project-box" style="background-color: #fee4cb;">
+              <div class="project-box-header">
+               
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Web Development</p>
+                <p class="box-content-subheader">I Can Serve pug with node</p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 40%; background-color: #ff942e"></span>
+                </div>
+                <p class="box-progress-percentage">40%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+                  <img src="https://e7.pngegg.com/pngimages/1006/374/png-clipart-web-development-node-js-socket-io-javascript-network-socket-modernization-miscellaneous-logo.png" alt="" srcset="">
+                  <img src="https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png" alt="" srcset="">
+                  <button class="add-participant" style="color: #ff942e;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="days-left" style="color: #ff942e;">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-box-wrapper">
+            <div class="project-box" style="background-color: #e9e7fd;">
+              <div class="project-box-header">
+                
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Front end Development</p>
+                <p class="box-content-subheader">Xd,Figma>Design>Code</p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 90%; background-color: #4f3ff0"></span>
+                </div>
+                <p class="box-progress-percentage">90%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+ <img src="https://e7.pngegg.com/pngimages/87/538/png-clipart-javascript-scalable-graphics-logo-encapsulated-postscript-javascript-icon-text-logo.png" alt="" srcset="">
+ <img src="./img/react.png" alt="" srcset="">
+ <img src="./img/Vue.js_Logo_2.svg.jpg" alt="" srcset="">
+                  <button class="add-participant" style="color: #4f3ff0;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="days-left" style="color: #4f3ff0;">
+               
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-box-wrapper">
+            <div class="project-box">
+              <div class="project-box-header">
+              
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Web Managment</p>
+                <p class="box-content-subheader">Let Me Manage Your Code </p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 90%; background-color: #096c86"></span>
+                </div>
+                <p class="box-progress-percentage">90%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+
+                  <button class="add-participant" style="color: #096c86;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="days-left" style="color: #096c86;">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-box-wrapper">
+            <div class="project-box" style="background-color: #ffd3e2;">
+              <div class="project-box-header">
+                
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Web to App</p>
+                <p class="box-content-subheader">Javascript libs everywhere</p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 20%; background-color: #df3670"></span>
+                </div>
+                <p class="box-progress-percentage">20%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+                  <img src="./img/react.png" alt="" srcset="">
+
+                  <button class="add-participant" style="color: #df3670;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="days-left" style="color: #df3670;">
+               
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-box-wrapper">
+            <div class="project-box" style="background-color: #c8f7dc;">
+              <div class="project-box-header">
+               
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Responsive Design</p>
+                <p class="box-content-subheader">Best User Experience Matters</p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 90%; background-color: #34c471"></span>
+                </div>
+                <p class="box-progress-percentage">90%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+<img src="https://www.seekpng.com/png/detail/377-3772047_sass-logo.png" alt="" srcset="">
+                  <button class="add-participant" style="color: #34c471;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="days-left" style="color: #34c471;">
+               
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-box-wrapper">
+            <div class="project-box" style="background-color: #d5deff;">
+              <div class="project-box-header">
+               
+                <div class="more-wrapper">
+                  <button class="project-btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-more-vertical">
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="12" cy="5" r="1" />
+                      <circle cx="12" cy="19" r="1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-box-content-header">
+                <p class="box-content-header">Automation</p>
+                <p class="box-content-subheader"> What About an youtube channel ? </p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Experience</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 40%; background-color: #4067f9"></span>
+                </div>
+                <p class="box-progress-percentage">20%</p>
+              </div>
+              <div class="project-box-footer">
+                <div class="participants">
+<img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" alt="" srcset="">
+                  <button class="add-participant" style="color: #4067f9;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-plus">
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+
+  <div data-aos="fade-left" class="services">
+    <div id="wrapper">
+      <div class="innerdiv">
+        <svg viewBox="10 10 30 30">
+          <g id="alpha" transform="translate(25 25) rotate(-90)">
+            <circle id="aCirc" r="10" />
+            <path id="aPath" d=""></path>
+          </g>
+          <text id="aText" x="25" y="25">80</text>
+        </svg>
+        <p >Frontend</p>
+      </div>
+      <div class="innerdiv" >
+        <svg viewBox="10 10 30 30">
+          <g id="beta" transform="translate(25 25) rotate(-90)">
+            <circle id="bCirc" r="10" />
+            <path id="bPath" d=""></path>
+          </g>
+          <text id="bText" x="25" y="25">
+            <tspan>30
+          </text>
+        </svg>
+        <p >Backend</p>
+      </div>
+      <div class="innerdiv">
+        <svg viewBox="10 10 30 30">
+          <g id="gama" transform="translate(25 25) rotate(-90)">
+            <circle id="gCirc" r="10" />
+            <path id="gPath" d=""></path>
+          </g>
+          <text id="gText" x="25" y="25">60</text>
+        </svg>
+        <p >Managment</p>
+      </div>
+      <div class="innerdiv" >
+        <svg viewBox="10 10 30 30">
+          <g id="sigma" transform="translate(25 25) rotate(-90)">
+            <circle id="aCirc" r="10" />
+            <path id="mPath" d=""></path>
+          </g>
+          <text id="mText" x="25" y="25">100</text>
+        </svg>
+        <p >Curiosity</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div data-aos="fade-right" id="Projects" class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide "> 
+         
+          <div class="proj-container">
+      
+            <div class="left">
+
+              <h1 class="morph-title" style="font-size:xx-large" >Morph.it</h1>
+              <h4> Static Live Image Morphing Web Application Built in Vue.js, Js &amp; basic Web Techs This Project Was Just An Experiment As Always </h4>
+               <button class="visit" > <a style="color: #fff;" href="./Morph-it/index.html">Visit</a></button>
+      
+            </div>
+      
+            <div class="right">
+      <img src="./img/morph.PNG" class="morph" >
+      
+      
+            </div>
+            
+          </div>
+
+
+        </div>
+        <div class="swiper-slide ">
+          <div class="proj-container">
+      
+      
+            <div class="left">
+      
+      
+              <h1 class="morph-title" style="font-size:xx-large" >Vtodo</h1>
+              <h4>Trending Static Todo Web App Uses Browser LocalStroge to Store User Data Built In Vue.js &amp; Basic Web Techs ,Motive Behind This Web App is Hassle Free Todo </h4>
+               <button  class="visit" ><a style="color: #fff;"  href="./Vue To Do/index.html">Visit</a> </button>
+      
+            </div>
+      
+            <div class="right">
+      <img src="./img/Vtodo.jpg" class="morph" >
+      
+      
+            </div>
+            
+          </div>
+
+          
+</div>
+        <div class="swiper-slide">
+
+ <div class="proj-container">
+      
+      
+            <div class="left">
+      
+      
+              <h1 class="morph-title" style="font-size:xx-large" >More Soon!</h1>
+              <h4>Currently I am working on some more projects will update soon</h4>
+               <button class="visit" > Visit </button>
+      
+            </div>
+      
+            <div class="right">
+      <img src="./img/coming-trans.png" class="dcoming-img" >
+      
+      
+            </div>
+ </div>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+    <!-- Add Pagination -->
+    <div  class="swiper-pagination"></div>
+</div>
+
+
+<div data-aos="fade-right"  id="mProjects" class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        
+        <img src="./img/morph.PNG" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 June 2021</span>
+        <div class="blog-slider__title">Morph.it !</div>
+        <div class="blog-slider__text">Live Image Morphing Web Application Built in Vue.js, Js &amp; basic Web Techs </div>
+        <a href="./Morph-it/index.html" class="blog-slider__button">Visit</a>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="./img/Vtodo.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 June 2021</span>
+        <div class="blog-slider__title">Vtodo !</div>
+        <div class="blog-slider__text">Trending Todo Web App Uses Browser LocalStroge to Store User Data Built In Vue.js &amp; Basic Web Techs</div>
+        <a href="./Vue To Do/index.html" class="blog-slider__button">Visit</a>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img  class="coming-img" src="./img/coming.jpeg" alt="" srcset="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 June 2021</span>
+        <div class="blog-slider__title">More Soon!</div>
+        <div class="blog-slider__text">Currently I am working on some more projects will update soon </div>
+        <a href="#" class="blog-slider__button">Soon</a>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <div class="blog-slider__pagination"></div>
+</div>
+</div>
+
+
+
+
+  <div data-aos="fade-left" id="contactus" class="contactUS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#a2d9ff" fill-opacity="1"
+        d="M0,32L60,37.3C120,43,240,53,360,53.3C480,53,600,43,720,32C840,21,960,11,1080,21.3C1200,32,1320,64,1380,80L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+    <h1 class="letswork" >Lets Work.</h1>
+    <h5>Lets Make Something Togather ! </h5>
+    <div class="inner-part">
+
+
+      <form action="https://getform.io/f/b7b620b4-8400-4f81-90c9-94b7bd170c83" method="POST">
+
+        <input type="text" name="name" placeholder="Your Full Name Here">
+        <br>
+
+        <input type="email" name="email" placeholder="Your Email Here">
+        <br>
+
+        <textarea placeholder="Website For a Food Company.." tabindex="5" required></textarea>
+
+        <button style="width: 100px; height: 40px;" type="submit">Send</button>
+
+      </form>
+    </div>
+  </div>
+  </div>
+
+  </div>
+
+
+
+
+ <!-- Initialize Swiper -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js'></script>
+      <script id=&quot;rendered-js&quot; >
+var swiper = new Swiper('.swiper-container ', {
+  pagination: '.swiper-pagination',
+  direction: 'vertical',
+  slidesPerView: 1,
+  paginationClickable: true,
+  spaceBetween: 30,
+  mousewheelControl: true,
+  parallax: true,
+  speed: 600 
+ }
+  );
+    </script>
+
+<script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+      <script id=&quot;rendered-js&quot; >
+var swiper = new Swiper('.blog-slider', {
+  spaceBetween: 30,
+  effect: 'fade',
+  loop: true,
+  mousewheel: {
+    invert: false },
+
+  // autoHeight: true,
+  pagination: {
+    el: '.blog-slider__pagination',
+    clickable: true } });
+
+
+
+
+
+
+// Scroll to specific values
+// window.scrollTo or
+window.scroll({
+  top: 1000, 
+  left: 0, 
+  behavior: 'smooth'
+});
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 5, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+AOS.init({
+    
+    delay: 100,
+    duration: 2500,
+  
+  });
+  
+  AOS.init({disable: 'mobile'});
+
+
+
+
+  // skill percentage codes starts here
+
+ 
+
+
+    </script>
+
+
+<script>
+ let rid = null;
+        const spring = 0.09;
+        const friction = 0.8;
+        let divs = Array.from(document.querySelectorAll(".innerdiv"));
+        
+        class Chart {
+          constructor(path, text, target) {
+            this.path = path;
+            this.text = text;
+            this.text.textContent = target + "%";
+            this.R = 10;
+            this.start = .01;
+            this.divisions = 100;
+            this.vel = 0;
+            this.stylePath(target);
+          }
+        
+          stylePath(target) {
+            let d = `M${this.R},0  A${this.R},${this.R} 0 1,1 ${this.R},-.01z`;
+            this.path.setAttributeNS(null, "d", d);
+            this.pathLength = this.path.getTotalLength();
+            this.unit = this.pathLength / this.divisions;
+            this.strokeLength = this.start * this.unit;
+            this.target = target * this.unit;
+            this.path.style.strokeDasharray = `${this.strokeLength},${this.pathLength -
+            this.strokeLength}`;
+          }
+        
+          updateStrokeLength() {
+            this.dist = this.target - this.strokeLength;
+            this.acc = this.dist * spring;
+            this.vel += this.acc;
+            this.vel *= friction;
+            this.strokeLength += this.vel;
+            this.path.style.strokeDasharray = `${this.strokeLength},${this.pathLength -
+            this.strokeLength}`;
+          }}
+        
+        
+        let charts = [];
+        
+        charts.push(new Chart(aPath, aText, 90));
+        charts.push(new Chart(bPath, bText, 40));
+        charts.push(new Chart(gPath, gText, 90));
+        charts.push(new Chart(mPath, mText, 100));
+        
+        
+        function Frame() {
+          rid = window.requestAnimationFrame(Frame);
+          charts.map(c => c.updateStrokeLength());
+        }
+        Frame();
+        
+        divs.map(div => {
+          div.addEventListener("input", function () {
+            charts.map(c => {
+              if (isNaN(parseInt(c.text.textContent))) {c.text.textContent = 0 + "%";}
+              if (parseInt(c.text.textContent) > 100) {c.text.textContent = 100 + "%";}
+              if (rid) {window.cancelAnimationFrame(rid);}
+              c.target = (parseInt(c.text.textContent) || 0) * c.unit;
+              if (!c.text.textContent.match("%"))
+              {c.text.textContent += "%";}
+              Frame();
+            });
+          });
+        });
+
+</script>
+
+
+</body>
+<div  class="tmfooter">
+
+
+  <div class="floatmail">
+    <div class="mtexts">
+
+     <h2>You Can Mail Me Too!</h2>
+     
+     
+
+
+    </div>
+     
+    <div class="button">
+
+
+      <a href="mailto:mohsindev798@gmail.com">Mail</a>
+      
+
+    </div>
+
+
+
+  </div>
+
+
+<h3>Ends Here</h3>
+
+
+
+<div id="social" class="tmsocial">
+   
+  
+  <a href="">  <i style="color: rgb(0, 0, 0);" class='bx bxl-facebook-circle'></i
+    ></a>
+
+   
+   <a href=""> <i style="color: rgb(0, 0, 0);"  class='bx bxl-github'></i></a>
+  <a href="">  <i style="color: rgb(0, 0, 0);" class='bx bxl-instagram-alt'></i></a>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+<footer data-aos="fade"  class="dfooter">
+  <div class="start-learning">
+      <div class="dfooter-start">
+          <div class="texts">
+            <h2 class="section-title">You Can Mail Me Too!</h2>
+              <h3 class="section-sub-heading">
+                <span>LetWorks Form Works For Real</span>
+              </h3>
+          </div>
+          <a href="mailto:mohsindev798@gmail.com" class="button">
+              <span class="label">Mail Now</span>
+          </a>
+         
+      </div>
+      </div>
+  </div>
+
+  <div class="inner">
+
+<div class="footer-logo">
+
+
+  <svg class="footersvg" width="50" height="50" viewBox="0 0 255 291" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d)">
+    <path d="M4.17422 189.427V203.061C4.1753 205.956 4.86858 208.808 6.19514 211.374C7.52169 213.942 9.44207 216.146 11.793 217.802L65.2772 163.763L50.4494 148.781C50.0526 148.381 49.5817 148.063 49.0634 147.846C48.5453 147.629 47.9896 147.518 47.4287 147.518C46.8677 147.518 46.3122 147.629 45.7941 147.846C45.2758 148.063 44.8049 148.381 44.4081 148.781L4.17422 189.427Z" fill="url(#paint0_linear)"/>
+    <path d="M47.424 131.092C49.217 131.088 50.9931 131.441 52.6495 132.136C54.3059 132.829 55.8096 133.848 57.0735 135.132L75.3382 153.585L112.839 115.697C116.728 111.774 122 109.57 127.496 109.57C132.992 109.57 138.265 111.774 142.154 115.697L194.297 168.379L210.412 152.097C212.974 149.515 216.443 148.065 220.062 148.065C223.679 148.065 227.15 149.515 229.71 152.097L250.82 173.442V79.947C250.82 76.7899 249.997 73.6885 248.433 70.9546C246.871 68.2205 244.624 65.9503 241.918 64.3716L136.397 2.81784C133.691 1.23906 130.62 0.407883 127.495 0.407883C124.369 0.407883 121.299 1.23906 118.593 2.81784L13.0699 64.3716C10.3639 65.9503 8.11657 68.2205 6.55395 70.9546C4.99134 73.6885 4.16852 76.7899 4.16791 79.947V169.079L37.7686 135.13C39.0334 133.845 40.5383 132.826 42.1956 132.134C43.8531 131.441 45.6303 131.086 47.424 131.092Z" fill="url(#paint1_linear)"/>
+    <path d="M204.364 178.56L243.195 217.8C245.546 216.144 247.466 213.939 248.792 211.373C250.118 208.806 250.811 205.954 250.812 203.059V193.786L223.07 165.757C222.269 164.947 221.182 164.493 220.049 164.493C218.915 164.493 217.829 164.947 217.027 165.757L204.364 178.56Z" fill="url(#paint2_linear)"/>
+    <path d="M194.294 188.729L184.227 178.56L132.084 125.879C130.867 124.651 129.218 123.962 127.498 123.962C125.779 123.962 124.13 124.651 122.913 125.879L85.4126 163.767L75.3441 173.94L24.506 225.298L118.591 280.184C121.298 281.762 124.368 282.594 127.493 282.594C130.618 282.594 133.689 281.762 136.395 280.184L230.48 225.298L194.294 188.729Z" fill="url(#paint3_linear)"/>
+    </g>
+    <defs>
+    <filter id="filter0_d" x="0.167908" y="0.407883" width="254.652" height="290.186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="4"/>
+    <feGaussianBlur stdDeviation="2"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="34.7256" y1="2.59005" x2="34.7256" y2="283.729" gradientUnits="userSpaceOnUse">
+    <stop offset="0.004" stop-color="#FF0000"/>
+    <stop offset="0.432292" stop-color="#FF0000"/>
+    <stop offset="0.5"/>
+    <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="127.494" y1="2.65734" x2="127.494" y2="283.839" gradientUnits="userSpaceOnUse">
+    <stop offset="0.004"/>
+    <stop offset="0.5"/>
+    <stop offset="0.9998" stop-color="#FF7900"/>
+    <stop offset="0.9999" stop-color="#FFB800"/>
+    <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="227.589" y1="2.59722" x2="227.589" y2="283.743" gradientUnits="userSpaceOnUse">
+    <stop offset="0.004"/>
+    <stop offset="0.5"/>
+    <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="127.493" y1="2.60866" x2="127.493" y2="283.704" gradientUnits="userSpaceOnUse">
+    <stop offset="0.004"/>
+    <stop offset="0.5"/>
+    <stop offset="1"/>
+    </linearGradient>
+    </defs>
+    </svg>
+
+
+</div>
+    
+    <div class="Mohsin"><h1><p>No Degree,Self Taught!</p>Md Mohsin</h1>
+    </div>
+    
+    <div class="footer-content">
+
+
+      <h1><p>Did You Check Everything ? Ok.</p> Here it Ends. </h1> 
+
+
+
+    </div>
+
+
+
+    <div  class="social">
+   
+  
+    <a href="https://www.linkedin.com/in/md-mohsin-96388a218/">  <i style="color: rgb(0, 0, 0);" class='bx bxl-linkedin-square'></i></a>
+
+     
+     <a href="https://github.com/undefmohsin"> <i style="color: rgb(0, 0, 0);"  class='bx bxl-github'></i></a>
+    <a href="https://www.instagram.com/ntgexists/">  <i style="color: rgb(0, 0, 0);" class='bx bxl-instagram-alt'></i></a>
+    
+
+
+    </div>
+
+
+  </div>
+</footer>
+
+
+
+ 
+
+
+</html>
